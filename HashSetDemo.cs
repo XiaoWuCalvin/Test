@@ -1,10 +1,6 @@
   int[] nums = {1,3,5,6,8,11,23,5,6,8,19,120 };
             //过滤掉重复的元素,返回没有重复的元素 1.List，2.Linq 3.HashSet..
-            //var newInts= nums.Distinct(); //Distinct
-            //foreach (var item in newInts)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            //var newInts= nums.Distinct(); //Distinct           
             HashSet<int> hs = new HashSet<int>();
             foreach (var item in nums)
             {
